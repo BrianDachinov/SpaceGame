@@ -1,5 +1,3 @@
-// NOTE: Parts of the code below are based on
-// https://www.mooict.com/wpf-c-tutorial-create-a-space-battle-shooter-game-in-visual-studio/7/
 
 namespace SpaceShooter.Game;
 

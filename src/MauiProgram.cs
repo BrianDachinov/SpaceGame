@@ -18,26 +18,26 @@ namespace SpaceShooter
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                     fonts.AddFont("OpenSans-Regular.ttf", "FontText");
 
-                    fonts.AddFont("Orbitron-Regular.ttf", "FontGame"); //400
-                    fonts.AddFont("Orbitron-Medium.ttf", "FontGameMedium"); //500
-                    fonts.AddFont("Orbitron-SemiBold.ttf", "FontGameSemiBold"); //600
-                    fonts.AddFont("Orbitron-Bold.ttf", "FontGameBold"); //700
-                    fonts.AddFont("Orbitron-ExtraBold.ttf", "FontGameExtraBold"); //800
+                    fonts.AddFont("Orbitron-Regular.ttf", "FontGame"); 
+                    fonts.AddFont("Orbitron-Medium.ttf", "FontGameMedium"); 
+                    fonts.AddFont("Orbitron-SemiBold.ttf", "FontGameSemiBold"); 
+                    fonts.AddFont("Orbitron-Bold.ttf", "FontGameBold"); 
+                    fonts.AddFont("Orbitron-ExtraBold.ttf", "FontGameExtraBold"); 
                 });
 
             builder.UseDrawnUi(new()
             {
-                UseDesktopKeyboard = true, //capture keys on desktop
+                UseDesktopKeyboard = true, 
                 DesktopWindow = new()
                 {
                     Width = 550,
                     Height = 750,
-                    IsFixedSize = true //user cannot resize window
-                    //todo disable maximize btn 
+                    IsFixedSize = true 
+                    
                 }
             });
 
-            //to avoid returning many copies of same sprite bitmap for different images
+            
             SkiaImageManager.ReuseBitmaps = true;
 
 #if WINDOWS

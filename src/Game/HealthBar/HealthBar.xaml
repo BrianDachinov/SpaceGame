@@ -29,7 +29,7 @@
                 <Color>#ee281D</Color>
                 <Color>#F0E70B</Color>
                 <Color>#65FF10</Color>
-                <Color>#65FF10</Color>
+                <Color>#aa10ff</Color>
             </draw:SkiaGradient.Colors>
 
             <draw:SkiaGradient.ColorPositions>

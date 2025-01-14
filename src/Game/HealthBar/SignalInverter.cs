@@ -45,7 +45,7 @@ public class SignalInverter : SkiaShape
             {
                 OnStop = () =>
                 {
-                    //SetValue(Value);
+                    
                 }
             };
         }
@@ -62,7 +62,7 @@ public class SignalInverter : SkiaShape
 
         WidthRequest = value;
 
-        //var ratio = value / _widthConstraint;
+    
 
         var max = 1.0 - v;
 

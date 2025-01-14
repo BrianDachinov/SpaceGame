@@ -12,7 +12,7 @@
     Tag="Game"
     VerticalOptions="Fill">
 
-    <!--  STARS BACKGROUND  -->
+    
     <draw:SkiaLayout
         HorizontalOptions="Fill"
         IsVisible="True"
@@ -38,7 +38,7 @@
 
     </draw:SkiaLayout>
 
-    <!--  STARS PARALLAX  -->
+    
     <draw:SkiaImageTiles
         x:Name="ParallaxLayer"
         HorizontalOptions="Fill"
@@ -49,7 +49,7 @@
         TileWidth="600"
         VerticalOptions="Fill" />
 
-    <!--  SCORE  -->
+    
     <draw:SkiaLabel
         x:Name="LabelScore"
         Margin="16"
@@ -91,7 +91,7 @@
         </draw:SkiaLabel.FillGradient>
     </draw:SkiaLabel>
 
-    <!--  HI SCORE  -->
+    
     <draw:SkiaLabel
         x:Name="LabelHiScore"
         Margin="16"
@@ -134,7 +134,7 @@
         </draw:SkiaLabel.FillGradient>
     </draw:SkiaLabel>
 
-    <!--  PLAYER  -->
+    
     <draw:SkiaImage
         x:Name="Player"
         Aspect="AspectFitFill"
@@ -147,7 +147,7 @@
         WidthRequest="60"
         ZIndex="5" />
 
-    <!--  SHIELD EXPLOSION  -->
+    
     <draw:SkiaLottie
         x:Name="PlayerShieldExplosion"
         AutoPlay="False"
@@ -165,7 +165,7 @@
         WidthRequest="110"
         ZIndex="4" />
 
-    <!--  PLAYER SHIELD  -->
+   
     <draw:SkiaLottie
         x:Name="PlayerShield"
         AutoPlay="True"
@@ -182,7 +182,7 @@
         WidthRequest="130"
         ZIndex="4" />
 
-    <!--  HEALTH BAR  -->
+   
     <game:HealthBar
         x:Name="HealthBar"
         HeightRequest="4"
@@ -195,7 +195,7 @@
         ZIndex="6"
         Value="{Binding Health}" />
 
-    <!--  MOTHER EARTH  -->
+    
     <draw:SkiaImage
         x:Name="ImagePlanet"
         Aspect="AspectCover"
@@ -208,7 +208,7 @@
         VerticalOptions="End"
         ZIndex="1" />
 
-    <!--  DIALOG  -->
+    
     <draw:SkiaLayout
         Margin="50"
         HeightRequest="-1"
@@ -219,7 +219,7 @@
         VerticalOptions="Center"
         ZIndex="200">
 
-        <!--  background layer  -->
+       
         <draw:SkiaLayout
             Padding="16"
             HorizontalOptions="Fill"
@@ -243,7 +243,7 @@
 
         </draw:SkiaLayout>
 
-        <!--  front layer cached  -->
+        
         <draw:SkiaLayout
             Padding="17"
             HorizontalOptions="Fill"
@@ -297,7 +297,7 @@
                         VerticalOptions="Fill"
                         ZIndex="-1" />
 
-                    <!--  StackLayout  -->
+                    
                     <draw:SkiaLayout
                         Padding="16,20,16,24"
                         HorizontalOptions="Fill"
@@ -337,7 +337,7 @@
                             </draw:SkiaLabel.FillGradient>
                         </draw:SkiaLabel>
 
-                        <!--  BUTTON  -->
+                    
                         <draw:SkiaShape
                             draw:AddGestures.CommandTapped="{Binding CommandPressedOk}"
                             BackgroundColor="#33000000"
