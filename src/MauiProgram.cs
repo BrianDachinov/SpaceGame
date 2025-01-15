@@ -41,8 +41,7 @@ namespace SpaceShooter
             SkiaImageManager.ReuseBitmaps = true;
 
 #if WINDOWS
-            // game mode !!!
-            Thread.CurrentThread.Priority = ThreadPriority.Highest;
+            
 #endif
 
 #if DEBUG

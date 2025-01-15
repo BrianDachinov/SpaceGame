@@ -24,12 +24,16 @@
             <draw:SkiaLabelFps
                 IsVisible="{x:Static spaceShooter:MauiProgram.IsDebug}"
                 Margin="0,0,4,24"
-                BackgroundColor="DarkRed"
+                BackgroundColor="ForestGreen"
                 HorizontalOptions="End"
                 Rotation="-45"
                 TextColor="White"
                 VerticalOptions="End"
-                ZIndex="100" />
+                ZIndex="100" >
+				<draw:SkiaLabelFps.FormattedText>
+					<FormattedString/>
+				</draw:SkiaLabelFps.FormattedText>
+            </draw:SkiaLabelFps>
 
         </draw:SkiaLayout>
     </draw:Canvas>
