@@ -11,7 +11,7 @@ public partial class SpaceShooter
         {
             var newBullet = new BulletSprite()
             {
-                HeightRequest = 16,
+                HeightRequest = 20,
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.End,
                 CornerRadius = 6,
